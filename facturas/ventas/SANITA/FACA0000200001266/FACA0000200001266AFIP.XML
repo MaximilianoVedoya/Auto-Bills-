@@ -1,0 +1,27 @@
+<struct name="FECAEResponse2"><field name="Errors" type="ArrayOfErr"><array name="ArrayOfErr" type="Err"/>
+</field>
+<field name="Events" type="ArrayOfEvt"><array name="ArrayOfEvt" type="Evt">
+</array></field>
+<field name="FeCabResp" type="FECAECabResponse"><struct Name="FECAECabResponse">
+<field name="CantReg" type="Integer">1</field>
+<field name="CbteTipo" type="Integer">1</field>
+<field name="Cuit" type="Int64">20294070886</field>
+<field name="FchProceso" type="WideString">20200205071945</field>
+<field name="PtoVta" type="Integer">2</field>
+<field name="Reproceso" type="WideString">N</field>
+<field name="Resultado" type="WideString">A</field>
+</struct></field>
+<field name="FeDetResp" type="ArrayOfFECAEDetResponse"><array name="ArrayOfFECAEDetResponse" type="FECAEDetResponse">
+<item id="0"><struct name="FECAEDetResponse">
+<field name="CAE" type="WideString">70066633877489</field>
+<field name="CAEFchVto" type="WideString">20200215</field>
+<field name="CbteDesde" type="Int64">1266</field>
+<field name="CbteFch" type="WideString">20200205</field>
+<field name="CbteHasta" type="Int64">1266</field>
+<field name="Concepto" type="Integer">1</field>
+<field name="DocNro" type="Int64">30585124989</field>
+<field name="DocTipo" type="Integer">80</field>
+<field name="Observaciones" type="ArrayOfObs">
+<array name="ArrayOfObs" type="Obs"></array></field>
+<field name="Resultado" type="WideString">A</field></struct></item>
+</array></field></struct>
